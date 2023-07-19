@@ -1,0 +1,76 @@
+#myusername{
+    width: 400px;
+    height: 30px;
+    font-size: 20px;
+    color: black;
+    background-color:white;
+    border-radius: 6px;
+}
+#mypassword{
+    width: 400px;
+    height: 30px;
+    font-size: 20px;
+    color: black;
+    background-color:white;
+    border-radius: 6px;
+}
+#submit{
+    width: 400px;
+}
+
+/* Mobile Devices
+--------------------------------------------------------------------------------------------------------------- */
+@-ms-viewport{width:device-width;}
+
+
+/* Max Wrapper Width - Laptop, Desktop etc.
+--------------------------------------------------------------------------------------------------------------- */
+@media screen and (min-width:978px){
+    
+}
+
+
+/* Mobile Devices
+--------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width:900px){
+    
+}
+
+
+@media screen and (max-width:750px){
+    
+}
+
+@media screen and (max-width:450px){
+    
+
+#submit{
+    width: 180px;
+}
+#myusername{
+    width: 180px;
+    height: 30px;
+    font-size: 15px;
+    color: black;
+    background-color:white;
+    border-radius: 6px;
+}
+#mypassword{
+    width: 180px;
+    height: 30px;
+    font-size: 15px;
+    color: black;
+    background-color:white;
+    border-radius: 6px;
+}
+}
+
+
+/* Other
+--------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width:650px){
+  
+}
+
+
+
